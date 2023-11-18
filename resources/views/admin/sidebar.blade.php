@@ -12,7 +12,7 @@
         <!-- Sidebar user (optional) -->
         <div class="user-panel pb-3 my-3">
             <div class="info">
-                <h5 class="text-white" style="margin: 0;">Reonaldi Saputro</h5>
+                <h5 class="text-white" style="margin: 0;">Mochamad arifin kurniawan</h5>
             </div>
         </div>
 

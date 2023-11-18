@@ -1,29 +1,25 @@
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto text-center">
-                    {{-- <li class="nav-item mx-5">
-                        <a class="nav-link" href="{{ '/' }}">Service</a>
-                    </li> --}}
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="{{ '/projects' }}">Project</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link logo" href="{{ '/' }}">Reonaldi Saputro</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="{{ '/blogs' }}">Blog</a>
-                    </li>
-                    <li class="nav-item mx-5">
-                        <a class="nav-link" href="{{ '/' }}">Contact</a>
-                    </li>
+<nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
-</div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->

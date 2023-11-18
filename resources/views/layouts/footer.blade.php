@@ -1,15 +1,15 @@
-<div class="footer">
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
     <div class="container">
-        <div class="row d-flex justify-content-between align-items-center">
-            <div class="col col-lg-3">
-                <h3>Reonaldi Saputro.</h3>
-            </div>
-            <div class="col col-lg-5 d-flex justify-content-between align-items-center">
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Dribbble</a>
-                <a href="#">Github</a>
-            </div>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>PhotoFolio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-</div>
+  </footer><!-- End Footer -->
